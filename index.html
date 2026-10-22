@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VideoGamer Magangué - Venta de PlayStation 4, PlayStation 5 y videojuegos.">
+  <title>VideoGamer Magangué | PS4 y PS5</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="navbar">
+  <a href="#inicio" class="logo"><span class="logo-icon">🎮</span><span>VIDEOGAMER <b>MAGANGUÉ</b></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+  <nav id="nav">
+    <a href="#inicio">Inicio</a>
+    <a href="#consola">PS4</a>
+    <a href="#juegos">Juegos PS4</a>
+    <a href="ps5.html" class="ps5-link">🔥 PS5</a>
+    <a href="#ofertas">Ofertas</a>
+    <a href="#contacto">Contacto</a>
+    <button class="cart-nav-btn" id="cartBtn" type="button">🛒 Carrito <span id="cartCount">0</span></button>
+    <button class="account-nav-btn" id="accountBtn" type="button">Iniciar sesión</button>
+  </nav>
+  <div class="nav-actions">
+    <button aria-label="Buscar" id="searchBtn">⌕</button>
+    <a class="whatsapp" href="https://wa.me/573201234567" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">TU MUNDO GAMER, MÁS CERCA</p>
+      <h1>PLAYSTATION 4<br><span>QUE SIGUE HACIENDO HISTORIA</span></h1>
+      <p>Consolas, juegos y accesorios para disfrutar tus títulos favoritos.</p>
+      <a href="#ofertas" class="btn primary">🛒 Comprar PS4 <span>→</span></a>
+      <a href="ps5.html" class="btn ps5-btn">🔥 Conocer PS5 <span>→</span></a>
+    </div>
+  </section>
+
+  <section class="trust">
+    <div><strong>🎮</strong><span>Consolas<br><b>100% funcionales</b></span></div>
+    <div><strong>🛡</strong><span>Garantía<br><b>en tu compra</b></span></div>
+    <div><strong>🚚</strong><span>Envíos a<br><b>todo Colombia</b></span></div>
+    <div><strong>🎧</strong><span>Asesoría<br><b>por WhatsApp</b></span></div>
+  </section>
+
+  <section class="split-section" id="consola">
+    <div class="product-visual product-photo-wrap ps4-product-visual">
+      <img class="product-photo ps4-console-photo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/PS4-Console-wDS4.jpg" alt="PlayStation 4 con control DualShock 4" loading="lazy">
+      <div class="controller-photo-card">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/DualShock_4.jpg?width=900" alt="Control inalámbrico DualShock 4" loading="lazy">
+        <span>DUALSHOCK 4</span>
+      </div>
+    </div>
+    <div class="product-copy">
+      <p class="eyebrow">PLAYSTATION 4</p>
+      <h2>PS4 + DUALSHOCK 4</h2>
+      <p>Consola lista para jugar, con control incluido y almacenamiento según disponibilidad.</p>
+      <ul>
+        <li>✓ 500 GB / 1 TB según disponibilidad</li>
+        <li>✓ Incluye 1 control DualShock 4</li>
+        <li>✓ Juegos físicos o digitales</li>
+        <li>✓ Lista para conectar a tu TV</li>
+      </ul>
+      <div class="price-block"><span>Precio de referencia</span><strong>$1.199.900 COP</strong></div>
+      <a href="#ofertas" class="btn primary">Comprar PS4 →</a>
+    </div>
+  </section>
+
+  <section class="games-section" id="juegos">
+    <div class="section-heading">
+      <div><p class="eyebrow">PARA TODOS LOS GUSTOS</p><h2>JUEGOS DESTACADOS PS4</h2></div>
+      <a href="#ofertas">Ver oferta →</a>
+    </div>
+    <div class="games-grid">
+      <article class="game-card">
+        <div class="game-art image-game"><img src="https://i5-mx.walmartimages.com/samsmx/images/product-images/img_large/000214194l.jpg?odnBg=FFFFFF&odnHeight=612&odnWidth=612" alt="Grand Theft Auto V PS4" loading="lazy"><span>GTA V</span></div>
+        <h3>Grand Theft Auto V</h3><p>Acción / Aventura</p><strong class="price">$89.900 COP</strong>
+        <button class="add-cart" data-product="Grand Theft Auto V" data-product-id="gta-v-ps4" data-price="89900">Agregar</button>
+      </article>
+      <article class="game-card">
+        <div class="game-art image-game"><img src="https://cdn.media.amplience.net/i/frasersdev/41874369_o.jpg?v=20250109163012" alt="EA SPORTS FC 24 PS4" loading="lazy"><span>FC 24</span></div>
+        <h3>EA SPORTS FC 24</h3><p>Deportes</p><strong class="price">$79.900 COP</strong>
+        <button class="add-cart" data-product="EA SPORTS FC 24" data-product-id="fc-24-ps4" data-price="79900">Agregar</button>
+      </article>
+      <article class="game-card">
+        <div class="game-art image-game"><img src="https://static01.galaxus.com/productimages/2/1/5/3/9/8/3/5/91SoMf876VL._SL1500_.jpg_sea.jpeg" alt="God of War PS4" loading="lazy"><span>GOD OF WAR</span></div>
+        <h3>God of War</h3><p>Acción / Aventura</p><strong class="price">$99.900 COP</strong>
+        <button class="add-cart" data-product="God of War" data-product-id="god-of-war-ps4" data-price="99900">Agregar</button>
+      </article>
+      <article class="game-card">
+        <div class="game-art image-game"><img src="https://cdn.mobygames.com/covers/7242748-marvel-spider-man-playstation-4-front-cover.jpg" alt="Marvel's Spider-Man PS4" loading="lazy"><span>SPIDER-MAN</span></div>
+        <h3>Marvel's Spider-Man</h3><p>Acción / Aventura</p><strong class="price">$109.900 COP</strong>
+        <button class="add-cart" data-product="Marvel's Spider-Man" data-product-id="spider-man-ps4" data-price="109900">Agregar</button>
+      </article>
+    </div>
+  </section>
+
+  <section class="video-section">
+    <div>
+      <p class="eyebrow">VIDEO</p>
+      <h2>CONOCE NUESTRA PS4</h2>
+      <p class="video-note">Mira el equipo antes de comprarlo.</p>
+    </div>
+    <video controls muted loop preload="metadata">
+      <source src="./assets/video-ps4.mp4" type="video/mp4">
+      Tu navegador no soporta este video.
+    </video>
+  </section>
+
+  <section class="spiderman-section">
+    <div class="spiderman-content">
+      <div class="spiderman-text">
+        <span class="game-label">🎮 JUEGO DESTACADO</span>
+        <h2>MARVEL'S<br><span>SPIDER-MAN</span></h2>
+        <p>Una aventura de acción por Nueva York, con combate dinámico y una historia original.</p>
+        <p class="game-description">🕷️ Disponible para PS4 en nuestra selección de juegos.</p>
+        <div class="price-block spiderman-price"><span>Precio de referencia</span><strong>$109.900 COP</strong></div>
+        <a href="#ofertas" class="btn-spiderman">🛒 COMPRAR JUEGO</a>
+      </div>
+      <div class="spiderman-video">
+        <h2>🎮 Gameplay</h2>
+        <video controls preload="metadata">
+          <source src="./assets/spiderman.mp4" type="video/mp4">
+          Tu navegador no soporta este video.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="community">
+    <div class="section-heading">
+      <div><p class="eyebrow">NUESTRA COMUNIDAD</p><h2>LO QUE DICEN NUESTROS CLIENTES</h2></div>
+    </div>
+    <div class="reviews">
+      <blockquote>“Excelente servicio, la consola llegó en perfecto estado y muy rápido.”<strong>★★★★★ — Andrés R.</strong></blockquote>
+      <blockquote>“Me resolvieron todas mis dudas y la PS4 funciona perfecto.”<strong>★★★★★ — Valentina G.</strong></blockquote>
+      <blockquote>“Buen precio y confianza. Sin duda volveré a comprar.”<strong>★★★★★ — Carlos M.</strong></blockquote>
+    </div>
+  </section>
+
+  <section class="offer" id="ofertas">
+    <div>
+      <p class="eyebrow">OFERTA GAMER</p>
+      <h2>PS4 + CONTROL + GARANTÍA</h2>
+      <p>Precio de referencia: <strong>$1.199.900 COP</strong>. Confirma disponibilidad antes de comprar.</p>
+    </div>
+    <a class="btn primary" href="https://wa.me/573201234567?text=Hola%20VideoGamer%20Magangu%C3%A9%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20PS4." target="_blank" rel="noopener">Quiero mi PS4 →</a>
+  </section>
+</main>
+
+<footer id="contacto">
+  <div class="footer-brand"><h2>🎮 VIDEOGAMER <span>MAGANGUÉ</span></h2><p>Tu pasión, nuestro juego.</p></div>
+  <div><h3>Enlaces rápidos</h3><a href="#inicio">Inicio</a><a href="#consola">PS4</a><a href="#juegos">Juegos PS4</a><a href="ps5.html">PS5</a><a href="#ofertas">Ofertas</a></div>
+  <div><h3>Contacto</h3><p>📱 +57 3023947956</p><p>📍 Magangué, Bolívar</p><p>✉️ videogamermagangue@gmail.com</p></div>
+  <div class="footer-slogan">¡NOS VEMOS<br>EN EL MUNDO<br>GAMER! 🎮</div>
+  <div class="copyright">© 2026 VideoGamer Magangué. Proyecto académico / demostrativo.</div>
+</footer>
+
+<div class="toast" id="toast">Producto agregado al carrito 🎮</div>
+<dialog class="store-dialog" id="authDialog" aria-labelledby="authTitle">
+  <form class="dialog-content" id="authForm">
+    <button class="dialog-close" type="button" data-close-dialog="authDialog" aria-label="Cerrar">×</button>
+    <p class="eyebrow">CUENTA VIDEOGAMER</p>
+    <h2 id="authTitle">Inicia sesión</h2>
+    <p class="dialog-description">Accede para guardar tu carrito y verlo desde tus dispositivos.</p>
+    <label id="fullNameField" hidden>Nombre
+      <input id="fullName" name="fullName" type="text" autocomplete="name" maxlength="100">
+    </label>
+    <label>Correo electrónico
+      <input id="authEmail" name="email" type="email" autocomplete="email" required maxlength="254">
+    </label>
+    <label>Contraseña
+      <input id="authPassword" name="password" type="password" autocomplete="current-password" required minlength="8" maxlength="72">
+    </label>
+    <p class="dialog-message" id="authMessage" role="status" aria-live="polite"></p>
+    <div class="dialog-actions">
+      <button class="btn primary" id="authSubmit" type="submit">Iniciar sesión</button>
+      <button class="dialog-secondary" id="signupModeBtn" type="button">Crear cuenta</button>
+      <button class="dialog-secondary" id="signOutBtn" type="button" hidden>Cerrar sesión</button>
+    </div>
+  </form>
+</dialog>
+<dialog class="store-dialog" id="cartDialog" aria-labelledby="cartTitle">
+  <div class="dialog-content">
+    <button class="dialog-close" type="button" data-close-dialog="cartDialog" aria-label="Cerrar">×</button>
+    <p class="eyebrow">TU SELECCIÓN</p>
+    <h2 id="cartTitle">Carrito de compras</h2>
+    <p class="dialog-description" id="cartMessage" role="status" aria-live="polite"></p>
+    <ul class="cart-list" id="cartList"></ul>
+    <div class="cart-total"><span>Total de referencia</span><strong id="cartTotal">$0 COP</strong></div>
+    <a class="btn primary checkout-link" id="checkoutLink" href="#" target="_blank" rel="noopener" hidden>Continuar por WhatsApp →</a>
+  </div>
+</dialog>
+<p class="database-status" id="databaseStatus" role="status" aria-live="polite">Catálogo de demostración: configura Supabase para sincronizar precios.</p>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
